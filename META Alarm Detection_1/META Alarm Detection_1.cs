@@ -118,17 +118,6 @@ namespace METAAlarmDetection_1
 		Clearable = 54,
 	}
 
-	public enum WhatsAppElementParamIds
-	{
-		SendMessage = 8,
-		AlarmElement = 50,
-		AlarmParameter = 51,
-		AlarmValue = 52,
-		AlarmSeverity = 54,
-		AlarmTime = 55,
-		AlarmType = 56,
-	}
-
 	/// <summary>
 	/// Represents a DataMiner Automation script.
 	/// </summary>
