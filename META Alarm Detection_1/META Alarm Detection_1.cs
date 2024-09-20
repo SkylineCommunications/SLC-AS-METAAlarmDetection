@@ -53,6 +53,7 @@ namespace METAAlarmDetection_1
 {
 	using System;
 	using System.Collections.Generic;
+	using System.Globalization;
 	using System.Linq;
 	using Skyline.DataMiner.Automation;
 	using Skyline.DataMiner.Core.InterAppCalls.Common.CallBulk;
@@ -187,7 +188,7 @@ namespace METAAlarmDetection_1
 			string severity = GetSeverityType(Convert.ToInt32(asAlarmInfo[7]));
 			string type = GetSeverityType(Convert.ToInt32(asAlarmInfo[8]));
 			string alarmValue = asAlarmInfo[10];
-			DateTime alarmTime = DateTime.Parse(asAlarmInfo[11]);
+			DateTime alarmTime = DateTime.Parse(asAlarmInfo[11], CultureInfo.InvariantCulture);
 
 			Element sourceElement = engine.FindElement(dmaID, elementID);
 			if (sourceElement == null)
@@ -224,7 +225,7 @@ namespace METAAlarmDetection_1
 				Parameter = alarmParameter,
 				Value = alarmValue,
 				Severity = severity,
-				Time = alarmTime.ToString(),
+				Time = alarmTime.ToString("F", CultureInfo.InvariantCulture),
 				Type = type,
 			};
 

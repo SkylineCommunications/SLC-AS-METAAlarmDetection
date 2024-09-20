@@ -5,7 +5,7 @@
 	<Type>Automation</Type>
 	<Author>SKYLINE2\SCU</Author>
 	<CheckSets>FALSE</CheckSets>
-	<Folder>Dataminer Solutions/META WhatsApp Messaging</Folder>
+	<Folder><![CDATA[Dataminer Catalog/Apps & Solutions/META WhatsApp Messaging]]></Folder>
 
 	<Protocols>
 		<Protocol id="2">
