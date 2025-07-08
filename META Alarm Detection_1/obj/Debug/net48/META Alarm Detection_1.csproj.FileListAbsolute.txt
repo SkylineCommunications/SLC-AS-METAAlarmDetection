@@ -1,0 +1,26 @@
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\META Alarm Detection_1.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\META Alarm Detection_1.pdb
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\META Alarm Detection_1.xml
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\Newtonsoft.Json.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\ICSharpCode.SharpZipLib.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\Skyline.DataMiner.Core.DataMinerSystem.Common.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\Skyline.DataMiner.Core.InterAppCalls.Common.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\DataMinerMessageBroker.API.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\protobuf-net.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\Skyline.DataMiner.Storage.Types.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\SLAnalyticsTypes.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\SLLoggerUtil.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\SLManagedAutomation.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\SLNetTypes.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\SLProtoBufLibrary.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\bin\Debug\net48\System.Threading.Tasks.Dataflow.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.csproj.AssemblyReference.cache
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.GeneratedMSBuildEditorConfig.editorconfig
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.AssemblyInfoInputs.cache
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.AssemblyInfo.cs
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.csproj.CoreCompileInputs.cache
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.sourcelink.json
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Ala.3CCA1C36.Up2Date
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.dll
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.xml
+C:\GitHub\Skyline\SLC-AS-METAAlarmDetection\META Alarm Detection_1\obj\Debug\net48\META Alarm Detection_1.pdb

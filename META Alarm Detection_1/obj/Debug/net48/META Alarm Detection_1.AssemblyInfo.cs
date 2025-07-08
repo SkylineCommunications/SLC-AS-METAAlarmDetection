@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyCopyrightAttribute("© Skyline Communications")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f8dee8927436a31d9c312894c761ea79fdeb76df")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d231e9f462686c184c78ab2bb9a01dadcb5f8971")]
 [assembly: System.Reflection.AssemblyProductAttribute("META Alarm Detection_1")]
 [assembly: System.Reflection.AssemblyTitleAttribute("META Alarm Detection_1")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

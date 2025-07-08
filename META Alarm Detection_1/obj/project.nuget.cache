@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "j46BguTpbEXT9+2y1r9m+qcKS+oTGEjaK6GGppkw7c9i1w45ltS5LZq3PnCajbRGfy/0P7agfqxX5Sx5tuugmg==",
+  "dgSpecHash": "NStRjb7lQTw=",
   "success": true,
   "projectFilePath": "C:\\GitHub\\Skyline\\SLC-AS-METAAlarmDetection\\META Alarm Detection_1\\META Alarm Detection_1.csproj",
   "expectedPackageFiles": [
@@ -18,15 +18,9 @@
     "C:\\Users\\SebastianCU\\.nuget\\packages\\skyline.dataminer.files.slmanagedautomation\\10.2.0.25\\skyline.dataminer.files.slmanagedautomation.10.2.0.25.nupkg.sha512",
     "C:\\Users\\SebastianCU\\.nuget\\packages\\skyline.dataminer.files.slnettypes\\10.2.0.25\\skyline.dataminer.files.slnettypes.10.2.0.25.nupkg.sha512",
     "C:\\Users\\SebastianCU\\.nuget\\packages\\skyline.dataminer.files.slprotobuflibrary\\10.2.0.25\\skyline.dataminer.files.slprotobuflibrary.10.2.0.25.nupkg.sha512",
+    "C:\\Users\\SebastianCU\\.nuget\\packages\\skyline.dataminer.utils.securecoding.analyzers\\2.0.4\\skyline.dataminer.utils.securecoding.analyzers.2.0.4.nupkg.sha512",
     "C:\\Users\\SebastianCU\\.nuget\\packages\\stylecop.analyzers\\1.1.118\\stylecop.analyzers.1.1.118.nupkg.sha512",
     "C:\\Users\\SebastianCU\\.nuget\\packages\\system.threading.tasks.dataflow\\7.0.0\\system.threading.tasks.dataflow.7.0.0.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1803",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://devcore3:81/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
-    }
-  ]
+  "logs": []
 }

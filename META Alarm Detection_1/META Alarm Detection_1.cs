@@ -188,7 +188,18 @@ namespace METAAlarmDetection_1
 			string severity = GetSeverityType(Convert.ToInt32(asAlarmInfo[7]));
 			string type = GetSeverityType(Convert.ToInt32(asAlarmInfo[8]));
 			string alarmValue = asAlarmInfo[10];
-			DateTime alarmTime = DateTime.Parse(asAlarmInfo[11], CultureInfo.InvariantCulture);
+			DateTime alarmTimeLocal = DateTime.Parse(asAlarmInfo[11], CultureInfo.InvariantCulture);
+
+			// Get the local time zone (of the DMA or system where this is running)
+			TimeZoneInfo localTimeZone = TimeZoneInfo.Local;
+			TimeSpan offset = localTimeZone.GetUtcOffset(alarmTimeLocal);
+
+			// Format the UTC offset as ±hh:mm
+			string offsetSign = offset.TotalMinutes >= 0 ? "+" : "-";
+			string offsetFormatted = $"{offsetSign}{Math.Abs(offset.Hours):D2}:{Math.Abs(offset.Minutes):D2}";
+
+			// Format final time string
+			string formattedAlarmTime = $"{alarmTimeLocal:yyyy-MM-dd HH:mm:ss} UTC{offsetFormatted}";
 
 			Element sourceElement = engine.FindElement(dmaID, elementID);
 			if (sourceElement == null)
@@ -225,7 +236,7 @@ namespace METAAlarmDetection_1
 				Parameter = alarmParameter,
 				Value = alarmValue,
 				Severity = severity,
-				Time = alarmTime.ToString("F", CultureInfo.InvariantCulture),
+				Time = formattedAlarmTime,
 				Type = type,
 			};
 
